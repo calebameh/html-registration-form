@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="card-1">
+          <h1>
+            Learn to code by <br />
+            watching others
+          </h1>
+          <p class="first-content">
+            See how experienced developers solve problems in real-time. <br />
+            Watching scripted tutorials is great, but understanding how <br />
+            developers think is invaluable.
+          </p>
+        </div>
+        <div class="card-2">
+          <button class="top-button">
+            <b>Try it free 7 days</b> then $20/mo. thereafter
+          </button>
+          <div>
+            <form action="#">
+              <table>
+                <tr>
+                  <td>
+                    <input
+                      type="text"
+                      id="fname"
+                      placeholder="First Name"
+                      required
+                    />
+                    <img
+                      src="/images/icon-error.png"
+                      alt="error icon"
+                      class="error-icon"
+                    />
+                    <p style="font-size: 10px; color: red" class="error">
+                      First Name cannot be empty
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="text"
+                      id="lname"
+                      placeholder="Last Name"
+                      required
+                    />
+                    <img
+                      src="/images/icon-error.png"
+                      alt="error icon"
+                      class="error-icon"
+                    />
+                    <p style="font-size: 10px; color: red" class="error">
+                      Last Name cannot be empty
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="Email Address"
+                      required
+                    />
+                    <img
+                      src="/images/icon-error.png"
+                      alt="error icon"
+                      class="error-icon"
+                    />
+                    <p style="font-size: 10px; color: red" class="error">
+                      Looks like this is not an email
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="password"
+                      id="pwd"
+                      placeholder="Password"
+                      required
+                    />
+                    <img
+                      src="/images/icon-error.png"
+                      alt="error icon"
+                      class="error-icon"
+                    />
+                    <p style="font-size: 10px; color: red" class="error">
+                      Password cannot be empty
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="submit"
+                      class="form-button"
+                      value="CLAIM YOUR FREE TRIAL"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="terms">
+                      By clicking the button you are agreeing to our
+                      <b style="color: red">Terms and Services</b>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
