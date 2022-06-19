@@ -8,7 +8,7 @@
 
 /* background  */
 main{
-    background-image: url(/images/bg-intro-desktop.png);
+    background-image: url(./images/bg-intro-desktop.png);
     background-color: hsla(0, 100%, 74%, 0.816);
     background-repeat: repeat;
     background-size: contain;
